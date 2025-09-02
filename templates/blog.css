@@ -1,0 +1,95 @@
+html {
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/img/compressed-dark.jpg);;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    /* width: 100%; */
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+    overflow-x: hidden;
+    background-color: #000000a8;
+    outline: 4px #8f999e solid;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    padding: 50px;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 450px) {
+    html {
+        background-image: none;
+        background-color: #000;
+        overflow-x: hidden;
+    }
+    body {
+        background-color: #000000;
+        outline: none;
+        height: 100%;
+        margin: auto;
+        padding: 0;
+        max-width: 80vw;
+    }
+    p {
+        overflow-x: hidden;
+    }
+    
+}
+
+body * {
+    max-width: 80vw;
+}
+
+a {
+    color: #67a9ea;
+}
+
+p {
+    padding-left: 20px;
+}
+
+code {
+    display: block;
+    background-color: #364b558a;
+    padding: 20px;
+}
+
+section {
+    margin-top: 60px;
+    height: 100%;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 100%;
+}
+
+img {
+    /* padding-top: 80px; */
+    padding-bottom: 80px;
+    max-width: 50%;
+}
+
+.hbox {
+    max-width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hbox img {
+    max-width: 100%;
+}
