@@ -8,12 +8,8 @@
 
 // titles of all the blog posts in the directory with no file extension
 const files = [
-    'we-are-so-back',
-    'i-was-lazy',
-    'new-pokemon-game',
-    'help!!-Kobo-Kanaeru',
-    'devlog_1',
-    'new-blog-system'
+    'hello-world',
+    'hello-world-2'
 ];
 
 const folderPath = '/posts/';           // The folder path of all blogposts
